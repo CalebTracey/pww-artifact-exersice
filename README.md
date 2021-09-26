@@ -2,18 +2,24 @@
 
 <br/>
 
-## Demo
-Here is a working live demo: https://calebtracey.github.io/pww-artifact-exersice/
+## Live Demo:  https://calebtracey.github.io/pww-artifact-exersice/
 
 <br/>
 
 ## Overview
-This project was developed 9/24-25/2021 as an exersice in converting a PDF design artifact into an accurate and functional React JS application. Typography, components, and color pallete were all utilized, designed, and implemented in accordance with the provided documentation.
+This project was developed 9/24-26/2021 as an exersice in converting a PDF design artifact into an accurate and functional React JS application. Typography, components, and color pallete were all utilized, designed, and implemented accordingly.
 
 <br/>
 
+The demo is responsive to a variety of screen dimensions (smart phone + tablets + laptop/desktop). Most of the time involed was spent on ensuring responsiveness and flexibility across devices. This was achieved mostly through CSS media queries, adjusting values such as font-size and padding based on the current width of the screen in pixels. I also set layout dimensions using view height and view width to acheive consistent displays.
+
+<br/>
+
+If you happen to be interested in my approach to this excercise, [here is a link](https://docs.google.com/document/d/12Cj-6C3tSBxHvjkFbpFgXTKyq3QnJFkMB-c2a7qDXOA/edit?usp=sharing
+) to a write up describing my thought process and how I spent my time. If you have any suggestions, questions, or constructive criticism, please drop me a line! I would love to hear any feedback.
+
 ## Technologies
-Bootstrapped with Create React App. Layout + components are custom CSS elements.
+Bootstrapped with Create React App. Layout + components are custom CSS.
 
 <u>Libraries:<u>
 * <i>Faker js</i> for random data.
@@ -23,15 +29,7 @@ Bootstrapped with Create React App. Layout + components are custom CSS elements.
 <br/>
 
 ## Functionality
-Intended as a quick project focusing on design, the functionality here is limited. Header menus are interactive and buttons are responsive. The "Back to Top" button is also working. 
-  
-<br/>
-  
-The main focus was to design a responsive, accessible, and well represented application in a reasonable amount of time, doing so while following best practices to the best of my ability.
-  
-<br/>
-
-The demo should perform well on all standard platforms (smart phone + tablets + laptop/desktop). As mentioned earlier, most of the time involed was spent on responsiveness and making appropriate adjustments across different aspect ratios and device emulators in Chrome DevTools.
+Intended as a quick project focusing on design, the functionality here is limited. Header menus are interactive and buttons are responsive. The "Back to Top" button is also working. I also added some simple CSS transitions into the information links below the hero image.
   
 <br/>
   
