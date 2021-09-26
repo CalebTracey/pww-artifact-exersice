@@ -50,7 +50,7 @@ const ScrollToTop = () => {
             marginRight: '.5vw',
             fontSize: '1vw',
             fontFamily: 'OpenSans',
-            color: '#c3c3c3',
+            color: '#757575',
           }}
         >
           Back to Top
