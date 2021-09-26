@@ -2,18 +2,20 @@
 
 <br/>
 
-## Demo
-Here is a working live demo: https://calebtracey.github.io/pww-artifact-exersice/
+## Live Demo:  https://calebtracey.github.io/pww-artifact-exersice/
 
 <br/>
 
 ## Overview
-This project was developed 9/24-25/2021 as an exersice in converting a PDF design artifact into an accurate and functional React JS application. Typography, components, and color pallete were all utilized, designed, and implemented in accordance with the provided documentation.
+This project was developed 9/24-26/2021 as an exersice in converting a PDF design artifact into an accurate and functional React JS application. Typography, components, and color pallete were all utilized, designed, and implemented accordingly.
 
 <br/>
 
+The demo is responsive to a variety of screen dimensions (smart phone + tablets + laptop/desktop). Most of the time involed was spent on ensuring responsiveness and flexibility across devices. 
+<br/>
+
 ## Technologies
-Bootstrapped with Create React App. Layout + components are custom CSS elements.
+Bootstrapped with Create React App. Layout + components are custom CSS.
 
 <u>Libraries:<u>
 * <i>Faker js</i> for random data.
@@ -23,15 +25,7 @@ Bootstrapped with Create React App. Layout + components are custom CSS elements.
 <br/>
 
 ## Functionality
-Intended as a quick project focusing on design, the functionality here is limited. Header menus are interactive and buttons are responsive. The "Back to Top" button is also working. 
-  
-<br/>
-  
-The main focus was to design a responsive, accessible, and well represented application in a reasonable amount of time, doing so while following best practices to the best of my ability.
-  
-<br/>
-
-The demo should perform well on all standard platforms (smart phone + tablets + laptop/desktop). As mentioned earlier, most of the time involed was spent on responsiveness and making appropriate adjustments across different aspect ratios and device emulators in Chrome DevTools.
+Intended as a quick project focusing on design, the functionality here is limited. Header menus are interactive and buttons are responsive. The "Back to Top" button is also working. I also added some simple CSS transitions into the information links below the hero image.
   
 <br/>
   
