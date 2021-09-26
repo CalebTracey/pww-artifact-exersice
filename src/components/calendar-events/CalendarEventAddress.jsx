@@ -5,7 +5,7 @@ import { IoLocationOutline } from 'react-icons/io5';
 const CalendarEventAddress = ({ address }) => (
   <div className="calender-item-wrapper">
     <IoLocationOutline className="calendar-icon" />
-    <span className="content-list-text">{address}</span>
+    <span className="content-list-text-non-active">{address}</span>
   </div>
 );
 

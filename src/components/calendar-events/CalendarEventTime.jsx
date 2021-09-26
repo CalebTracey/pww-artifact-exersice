@@ -5,7 +5,10 @@ import { IoTimeOutline } from 'react-icons/io5';
 const CalendarEventTime = ({ time }) => (
   <div className="calender-item-wrapper">
     <IoTimeOutline className="calendar-icon" />
-    <span style={{ textTransform: 'lowercase' }} className="content-list-text">
+    <span
+      style={{ textTransform: 'lowercase' }}
+      className="content-list-text-non-active"
+    >
       {time}
     </span>
   </div>

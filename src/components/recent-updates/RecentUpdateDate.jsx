@@ -11,7 +11,7 @@ const RecentUpdateDate = ({ date, badge }) => (
         width: '80%',
         fontSize: '.85rem',
       }}
-      className="content-list-text"
+      className="content-list-text-non-active"
     >
       <span style={{ fontWeight: 'bold', marginRight: '.25rem' }}>
         Published:
