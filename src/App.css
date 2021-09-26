@@ -69,7 +69,6 @@
 
 .header-sub-text {
   font-family: 'OpenSansItalic';
-  /* font-style: italic; */
   color: #1b3a61;
 }
 
@@ -427,10 +426,6 @@
   cursor: pointer;
 }
 
-/* .info-link-item::after {
-  transform: scaleX(0);
-} */
-
 .header-style-1 {
   font-family: 'OpenSansBold';
   font-size: 42px;
@@ -625,14 +620,33 @@
 }
 
 .scroll-to-top-wrapper {
+  width: 9%;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   position: sticky;
   margin-bottom: 5rem;
   bottom: 5rem;
-  margin-right: 3rem;
+  margin-right: 7rem;
   margin-left: auto;
+}
+
+.scroll-to-top-text {
+  white-space: nowrap;
+  margin-right: 0.5vw;
+  font-size: 1em;
+  font-family: 'OpenSans';
+  color: #757575;
+  position: relative;
+  border: none;
+  background: transparent;
+  border-radius: 50%;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+  z-index: 5;
 }
 
 .scroll-to-top {
@@ -696,33 +710,53 @@
     opacity: 1;
   }
 }
+@media screen and (max-width: 1060px) {
+  div.scroll-to-top-wrapper {
+    width: 3.5rem;
+    margin-right: 1rem;
+    opacity: 50%;
+  }
+  div.scroll-to-top-text {
+    display: none;
+  }
+  div.calendar-event-content {
+    width: 60%;
+  }
+  div.recent-update {
+    min-width: 16rem;
+  }
+  div.services-links {
+    padding-left: 8vw;
+    padding-right: 18vw;
+  }
+}
 
-@media only screen and (max-width: 850px) and (orientation: landscape) {
+@media screen and (max-width: 850px) and (orientation: landscape) {
   div.group-list-wrapper {
     margin-top: 10vh;
     height: auto;
   }
-  div.sub-menu {
-    margin-top: 10vh;
-    height: auto;
-  }
-  div.sub-menu-item {
-    font-size: 10px;
-  }
+}
+div.sub-menu {
+  margin-top: 10vh;
+  height: auto;
+}
+div.sub-menu-item {
+  font-size: 10px;
+}
 
-  div.navigation-menu {
-    font-size: 4px;
-  }
-  div.nav-menu-content-group {
-    font-size: 4px;
-  }
-  div.header-search-bar-wrapper {
-    margin-top: 3em;
-    position: absolute;
-  }
-  div.button-text {
-    font-size: 1rem;
-  }
+div.navigation-menu {
+  font-size: 4px;
+}
+div.nav-menu-content-group {
+  font-size: 4px;
+}
+div.header-search-bar-wrapper {
+  margin-top: 3em;
+  position: absolute;
+}
+div.button-text {
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 430px) {
@@ -753,8 +787,10 @@
   div.nav-menu-content-group {
     font-size: 8px;
     margin-top: 1rem;
+    width: 43%;
   }
   div.info-link-container {
+    flex: 1 1 auto;
     flex-wrap: wrap;
   }
   div.info-link-item {
@@ -763,17 +799,6 @@
     padding: 2rem 1rem 2rem 1rem;
     margin-top: 2rem;
     font-size: 0.5rem;
-  }
-  div.scroll-to-top-wrapper {
-    margin-right: 1rem;
-  }
-  div.scroll-to-top {
-    display: none;
-    size: 3ch;
-  }
-  div.header-search-bar-wrapper {
-    margin-top: 3em;
-    position: absolute;
   }
 }
 

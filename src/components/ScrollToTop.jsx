@@ -27,7 +27,7 @@ const ScrollToTop = () => {
     isVisible && (
       <>
         <button
-          style={{ aspectRatio: '1/1' }}
+          style={{ height: '100%', width: '100%', aspectRatio: '1/1' }}
           aria-label="Scroll to top"
           type="button"
           className="scroll-to-top"
@@ -35,26 +35,15 @@ const ScrollToTop = () => {
         >
           <IoChevronUpSharp
             style={{
-              fontSize: '1.2vw',
+              marginLeft: '0',
+              fontSize: '1.35rem',
               color: '#35b0cb',
               margin: '0',
-              padding: '.75vw',
             }}
             className="button-icon"
           />
         </button>
-        <div
-          className="scroll-to-top "
-          style={{
-            background: 'transparent',
-            marginRight: '.5vw',
-            fontSize: '1vw',
-            fontFamily: 'OpenSans',
-            color: '#757575',
-          }}
-        >
-          Back to Top
-        </div>
+        <div className="scroll-to-top-text">Back to Top</div>
       </>
     )
   );
