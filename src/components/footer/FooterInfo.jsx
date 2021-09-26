@@ -12,9 +12,9 @@ const FooterInfo = () => (
   >
     <span>South Carolina</span>
     <span>Revenue and Fiscal Affairs Office</span>
-    <div className="icon-wrapper">
+    <div style={{ marginLeft: '0' }} className="icon-wrapper">
       <img
-        style={{ aspectRatio: '1/1', width: '50%' }}
+        style={{ paddingTop: '1.5rem', aspectRatio: '1/1', width: '50%' }}
         src={RFAFooterLogo}
         alt="footer"
       />
