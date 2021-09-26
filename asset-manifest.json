@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pww-artifact-exersice/static/css/main.fb707f5d.chunk.css",
-    "main.js": "/pww-artifact-exersice/static/js/main.58ed200a.chunk.js",
-    "main.js.map": "/pww-artifact-exersice/static/js/main.58ed200a.chunk.js.map",
+    "main.css": "/pww-artifact-exersice/static/css/main.b6d78a9c.chunk.css",
+    "main.js": "/pww-artifact-exersice/static/js/main.4142eab3.chunk.js",
+    "main.js.map": "/pww-artifact-exersice/static/js/main.4142eab3.chunk.js.map",
     "runtime-main.js": "/pww-artifact-exersice/static/js/runtime-main.a4a3c88d.js",
     "runtime-main.js.map": "/pww-artifact-exersice/static/js/runtime-main.a4a3c88d.js.map",
     "static/js/2.bba285ca.chunk.js": "/pww-artifact-exersice/static/js/2.bba285ca.chunk.js",
     "static/js/2.bba285ca.chunk.js.map": "/pww-artifact-exersice/static/js/2.bba285ca.chunk.js.map",
     "index.html": "/pww-artifact-exersice/index.html",
-    "static/css/main.fb707f5d.chunk.css.map": "/pww-artifact-exersice/static/css/main.fb707f5d.chunk.css.map",
+    "static/css/main.b6d78a9c.chunk.css.map": "/pww-artifact-exersice/static/css/main.b6d78a9c.chunk.css.map",
     "static/js/2.bba285ca.chunk.js.LICENSE.txt": "/pww-artifact-exersice/static/js/2.bba285ca.chunk.js.LICENSE.txt",
     "static/media/Group.0a5227e8.svg": "/pww-artifact-exersice/static/media/Group.0a5227e8.svg",
     "static/media/index.css": "/pww-artifact-exersice/static/media/RobotoSlab-Regular.a36eb364.ttf",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.a4a3c88d.js",
     "static/js/2.bba285ca.chunk.js",
-    "static/css/main.fb707f5d.chunk.css",
-    "static/js/main.58ed200a.chunk.js"
+    "static/css/main.b6d78a9c.chunk.css",
+    "static/js/main.4142eab3.chunk.js"
   ]
 }
