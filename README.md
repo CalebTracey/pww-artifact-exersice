@@ -18,7 +18,7 @@ Bootstrapped with Create React App. Layout + components are custom CSS elements.
 <u>Libraries:<u>
 * <i>Faker js</i> for random data.
 * <i>React-icons</i> for buttons + icons in the "Calendar of Events" section.
-* <i>Prop-types<i> for type checking.
+* <i>Prop-types</i> for type checking.
   
 <br/>
 
