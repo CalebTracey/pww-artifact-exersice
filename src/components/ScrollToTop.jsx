@@ -27,6 +27,7 @@ const ScrollToTop = () => {
     isVisible && (
       <>
         <button
+          style={{ aspectRatio: '1/1' }}
           aria-label="Scroll to top"
           type="button"
           className="scroll-to-top"
@@ -42,7 +43,7 @@ const ScrollToTop = () => {
             className="button-icon"
           />
         </button>
-        <span
+        <div
           className="scroll-to-top "
           style={{
             background: 'transparent',
@@ -53,7 +54,7 @@ const ScrollToTop = () => {
           }}
         >
           Back to Top
-        </span>
+        </div>
       </>
     )
   );

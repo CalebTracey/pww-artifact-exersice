@@ -22,8 +22,16 @@ const Header = ({ menuNavToggle, menuNavOpen }) => {
           menuNavOpen={menuNavOpen}
           menuNavToggle={menuNavToggle}
         />
-        <div className="header-icon-wrapper">
-          <img src={RFALogo} alt="logo" />
+        <div className="icon-wrapper">
+          <img
+            style={{
+              width: 'auto',
+              height: '8.5vh',
+              minHeight: '4rem',
+            }}
+            src={RFALogo}
+            alt="logo"
+          />
         </div>
       </div>
       <div className="header-wrapper">

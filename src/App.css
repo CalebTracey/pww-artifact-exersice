@@ -48,37 +48,33 @@
 
 .header-nav-icon-wrapper {
   display: flex;
+  align-items: center;
   margin-right: 1vw;
   width: 12%;
   min-width: 10em;
 }
 
-.header-icon-wrapper {
+.icon-wrapper {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  display: flex;
-  width: 4vw;
-  min-width: 5rem;
-  height: auto;
-  position: static;
-  margin-left: 1.5vw;
-}
-
-.footer-icon-wrapper {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  display: flex;
+  display: block;
+  margin-left: 1.5rem;
 }
 
 .header-text {
   font-family: 'RobotoSlab';
   text-transform: uppercase;
   color: #1b3a61;
-  font-size: 1.05vw;
+}
+
+.header-sub-text {
+  font-family: 'OpenSans';
+  font-style: italic;
 }
 
 .header-nav-button-wrapper {
   justify-content: flex-end;
+  text-align: end;
   display: flex;
   position: relative;
   flex-wrap: wrap;
@@ -86,13 +82,9 @@
   min-width: 55%;
 }
 .header-nav-button {
-  display: flex;
-  align-items: center;
-  margin: 1.25em;
   font-family: 'OpenSans';
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  font-size: 1vw;
   color: #1b3a61;
 }
 
@@ -231,7 +223,7 @@
 }
 
 .footer-section {
-  font-size: 1vw;
+  font-size: 0.9vw;
   color: #f3f6f9;
   display: flex;
   flex-direction: column;
@@ -281,8 +273,6 @@
   background-position: center center;
 }
 .hero-image-text {
-  width: 48%;
-  font-size: 2vw;
   text-align: center;
   color: white;
   font-family: 'RobotoSlab';
@@ -346,6 +336,12 @@
 
 .link-item-text:hover {
   cursor: pointer;
+  color: #1b3a61;
+}
+
+.link-item-text:active {
+  cursor: pointer;
+  color: #142b47;
 }
 
 .nav-button {
@@ -387,9 +383,7 @@
   align-items: center;
   justify-content: space-around;
   display: flex;
-  flex-wrap: wrap;
-  /* height: 38vh; */
-  padding-top: 2.75rem;
+  flex-direction: row;
   padding-bottom: 2rem;
   background-color: #e1e5ea;
   padding-left: 12vw;
@@ -399,20 +393,13 @@
 .info-link-item-text {
   font-family: 'OpenSansBold';
   text-transform: uppercase;
-  display: flex;
   flex-direction: column-reverse;
   width: 75%;
   letter-spacing: 0.5px;
-  font-size: 1.25rem;
 }
 
 .info-link-item {
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.123);
-  min-height: 12rem;
-  padding: 3.75rem 2.25rem 3.75rem 2.25rem;
-  width: 12vw;
-  margin-bottom: 1rem;
-  min-width: 12rem;
   background-color: white;
   color: #1b3a61;
   text-align: center;
@@ -479,7 +466,6 @@
 
 .sub-menu-item {
   padding: 1ch;
-  font-size: 1.25vw;
   font-family: 'OpenSansSemiBold';
   text-transform: capitalize;
 }
@@ -489,14 +475,12 @@
 }
 
 .group-list-wrapper {
-  overflow: scroll;
   margin-left: 3vw;
   display: flex;
   width: 75%;
 }
 .nav-menu-content-group {
   padding: 2ch;
-  min-width: 25vw;
 }
 
 .nav-menu-content-list {
@@ -507,20 +491,14 @@
   flex-wrap: wrap;
 }
 
-.nav-menu-content-list-item {
-  font-size: 1vw;
-}
-
 .content-list-text {
-  padding: 0.1ch;
-  margin-top: 0.5vh;
-  margin-bottom: 0.5vh;
   font-family: 'OpenSans';
   text-transform: capitalize;
   color: #666666;
 }
 .content-list-text:hover {
   cursor: pointer;
+  color: #333333;
 }
 
 .recent-updates {
@@ -616,13 +594,10 @@
 }
 
 .scroll-to-top {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
   border: none;
   background-color: #e1e5ea;
   border-radius: 50%;
-  aspect-ratio: 1/1;
   animation: fadeIn 2s;
   -webkit-animation: fadeIn 2s;
   -moz-animation: fadeIn 2s;
@@ -677,5 +652,180 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+  div.group-list-wrapper {
+    margin-top: 10vh;
+    height: auto;
+  }
+  div.sub-menu {
+    margin-top: 10vh;
+    height: auto;
+  }
+  div.sub-menu-item {
+    font-size: 10px;
+  }
+
+  div.navigation-menu {
+    font-size: 4px;
+  }
+  div.nav-menu-content-group {
+    font-size: 4px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  div.hero-image-text {
+    font-size: 1.25rem;
+    width: 90%;
+  }
+  div.footer {
+    padding: 1rem;
+    padding-top: 0;
+  }
+  div.footer-contact-item {
+    font-size: 8px;
+  }
+  div.footer-section {
+    font-size: 9px;
+  }
+  div.header-text-wrapper {
+    font-size: 7px;
+  }
+  div.header-nav-button {
+    font-size: 8px;
+    margin: 0.25rem;
+  }
+  div.sub-menu-item {
+    font-size: 8px;
+  }
+  div.nav-menu-content-group {
+    font-size: 8px;
+    margin-top: 1rem;
+  }
+  div.info-link-container {
+    flex-wrap: wrap;
+  }
+  div.info-link-item {
+    width: 6rem;
+    height: 6rem;
+    padding: 2rem 1rem 2rem 1rem;
+    margin-top: 2rem;
+    font-size: 0.5rem;
+  }
+  div.scroll-to-top-wrapper {
+    margin-right: 1rem;
+  }
+  div.scroll-to-top {
+    display: none;
+    size: 3ch;
+  }
+}
+
+@media screen and (min-width: 431px) {
+  div.hero-image-text {
+    font-size: 1.5rem;
+    width: 70%;
+  }
+  div.header-text-wrapper {
+    font-size: 0.5rem;
+  }
+  div.header-nav-button {
+    font-size: 0.5rem;
+    margin: 0.5rem;
+  }
+  div.nav-menu-content-group {
+    width: 15%;
+    font-size: 0.5rem;
+  }
+
+  div.info-link-container {
+    flex-wrap: wrap;
+  }
+  div.info-link-item {
+    width: 6rem;
+    height: 6rem;
+    padding: 2rem 1rem 2rem 1rem;
+    margin: 1rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  div.hero-image-text {
+    font-size: 1.5rem;
+    width: 60%;
+  }
+  div.header-text-wrapper {
+    font-size: 0.7rem;
+  }
+  div.header-nav-button {
+    font-size: 0.85rem;
+    margin: 0.75rem;
+  }
+
+  div.info-link-item {
+    width: 6rem;
+    height: 8rem;
+    padding: 2rem 1rem 2rem 1rem;
+    margin: 4.5rem 0 4.5rem 0;
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 930px) {
+  div.hero-image-text {
+    font-size: 2rem;
+    width: 60%;
+  }
+  div.header-text-wrapper {
+    font-size: 1rem;
+  }
+  div.header-nav-button {
+    font-size: 0.85rem;
+    margin: 0.75rem;
+  }
+
+  div.sub-menu-item {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1065px) {
+  div.hero-image-text {
+    font-size: 2rem;
+    width: 50%;
+  }
+  div.header-nav-button {
+    font-size: 1rem;
+    margin: 1.25rem;
+  }
+  div.nav-menu-content-group {
+    font-size: 0.9rem;
+    width: 30%;
+    margin-top: 1rem;
+  }
+
+  div.info-link-item {
+    width: 10rem;
+    height: 12rem;
+    padding: 2rem 1rem 2rem 1rem;
+    margin: 2.5rem;
+    font-size: 1rem;
+  }
+  div.header.style-2 {
+    font-size: 1.05rem;
+  }
+}
+
+@media screen and (min-width: 1450px) {
+  div.info-link-item {
+    width: 13rem;
+    height: 14rem;
+    padding: 2;
+    margin: 2.5rem 2rem 2rem 2rem;
+    font-size: 1.2rem;
   }
 }
