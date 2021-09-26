@@ -10,9 +10,7 @@ const StrokeButton = ({ title, color, backgroundColor }) => (
     className="stroke-button"
     type="button"
   >
-    <p style={{ fontSize: '1.25vh' }} className="button-text">
-      {title}
-    </p>
+    <p className="button-text">{title}</p>
   </button>
 );
 
