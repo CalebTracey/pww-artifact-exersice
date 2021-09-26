@@ -11,7 +11,7 @@ This project was developed 9/24-26/2021 as an exersice in converting a PDF desig
 
 <br/>
 
-The demo is responsive to a variety of screen dimensions (smart phone + tablets + laptop/desktop). Most of the time involed was spent on ensuring responsiveness and flexibility across devices. 
+The demo is responsive to a variety of screen dimensions (smart phone + tablets + laptop/desktop). Most of the time involed was spent on ensuring responsiveness and flexibility across devices. This was achieved mostly through CSS @media queries which adjusted values such as font-size and padding based on the current width of the screen in pixels. I also set some layout dimensions using view height and view width to acheive consistent displays.
 
 <br/>
 
