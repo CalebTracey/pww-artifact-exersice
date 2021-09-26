@@ -12,7 +12,11 @@ This project was developed 9/24-26/2021 as an exersice in converting a PDF desig
 <br/>
 
 The demo is responsive to a variety of screen dimensions (smart phone + tablets + laptop/desktop). Most of the time involed was spent on ensuring responsiveness and flexibility across devices. 
+
 <br/>
+
+If you happen to be interested in my approach to this excercise, [here is a link](https://docs.google.com/document/d/12Cj-6C3tSBxHvjkFbpFgXTKyq3QnJFkMB-c2a7qDXOA/edit?usp=sharing
+) to a write up describing my thought process and how I spent my time. If you have any suggestions, questions, or constructive criticism, please drop me a line! I would love to hear any feedback.
 
 ## Technologies
 Bootstrapped with Create React App. Layout + components are custom CSS.
