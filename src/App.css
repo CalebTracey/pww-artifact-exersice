@@ -49,9 +49,9 @@
 .header-nav-icon-wrapper {
   display: flex;
   align-items: center;
-  margin-right: 1vw;
+  margin-right: 1rem;
   width: 12%;
-  min-width: 10em;
+  min-width: 9em;
 }
 
 .icon-wrapper {
@@ -62,14 +62,15 @@
 }
 
 .header-text {
-  font-family: 'RobotoSlab';
+  font-family: 'RobotoSlabSemiBold';
   text-transform: uppercase;
   color: #1b3a61;
 }
 
 .header-sub-text {
-  font-family: 'OpenSans';
-  font-style: italic;
+  font-family: 'OpenSansItalic';
+  /* font-style: italic; */
+  color: #1b3a61;
 }
 
 .header-nav-button-wrapper {
