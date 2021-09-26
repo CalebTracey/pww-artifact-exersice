@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0b3b8750.chunk.css",
+    "main.js": "/static/js/main.dcce0e29.chunk.js",
+    "main.js.map": "/static/js/main.dcce0e29.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.94ef66dd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.94ef66dd.js.map",
+    "static/js/2.bba285ca.chunk.js": "/static/js/2.bba285ca.chunk.js",
+    "static/js/2.bba285ca.chunk.js.map": "/static/js/2.bba285ca.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0b3b8750.chunk.css.map": "/static/css/main.0b3b8750.chunk.css.map",
+    "static/js/2.bba285ca.chunk.js.LICENSE.txt": "/static/js/2.bba285ca.chunk.js.LICENSE.txt",
+    "static/media/Group.0a5227e8.svg": "/static/media/Group.0a5227e8.svg",
+    "static/media/index.css": "/static/media/RobotoSlab-Regular.a36eb364.ttf",
+    "static/media/RFA Logo Final.9acbebdc.png": "/static/media/RFA Logo Final.9acbebdc.png",
+    "static/media/RFAFooterLogo.d36a2d47.png": "/static/media/RFAFooterLogo.d36a2d47.png",
+    "static/media/App.css": "/static/media/shutterstock_42474535.ee7ba0c4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94ef66dd.js",
+    "static/js/2.bba285ca.chunk.js",
+    "static/css/main.0b3b8750.chunk.css",
+    "static/js/main.dcce0e29.chunk.js"
+  ]
+}
