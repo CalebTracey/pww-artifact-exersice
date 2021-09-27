@@ -11,6 +11,7 @@ const HeaderSearchBar = () => (
         height: '70%',
         width: '95%',
         justifyContent: 'space-between',
+        alignItems: 'center',
       }}
       className="search-bar-form-wrapper"
     >

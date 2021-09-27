@@ -94,24 +94,21 @@
 
 .header-search-button-wrapper {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   border: none;
-  position: relative;
-  right: 1rem;
-  width: 5%;
-  min-width: 3em;
+  margin-right: 1rem;
+  margin-left: auto;
 }
 
 .header-search-button-icon {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   padding: 1.5ch;
   color: #0074c1;
   border: 2px solid #0074c1;
   border-radius: 4px;
   justify-content: center;
-  width: 1.5em;
+  width: 1.5rem;
   height: auto;
 }
 
@@ -124,18 +121,21 @@
   border: 2px solid #0074c1;
   border-radius: 4px 4px 0 0;
   justify-content: center;
-  width: 1.5em;
+  width: 1.5rem;
   height: auto;
+  /* position: relative; */
 }
 
 .header-search-bar-wrapper {
-  position: fixed;
+  position: absolute;
+  right: 1rem;
   display: flex;
   align-items: center;
   margin-top: 6rem;
-  min-width: 20em;
-  width: 32vw;
-  height: 4em;
+  min-width: 20rem;
+  /* width: 32vw; */
+  border-radius: 4px;
+  height: 4rem;
   background-color: #0074c1;
 }
 
@@ -162,10 +162,10 @@
 }
 
 .button-wrapper {
-  width: 10em;
+  width: 10rem;
 }
 .stroke-button {
-  border: 3px solid;
+  border: 2px solid;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -250,6 +250,7 @@
   position: absolute;
   top: 10vh;
   bottom: 0;
+  height: fit-content;
 }
 
 .content-inner {
@@ -300,7 +301,7 @@
 
 .services-links {
   padding-left: 12vw;
-  padding-right: 11vw;
+  padding-right: 12vw;
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -475,7 +476,7 @@
 }
 
 .sub-menu-item-list {
-  width: 15vw;
+  width: 65%;
   margin-top: 3vh;
   flex-direction: column;
   text-align: center;
@@ -533,7 +534,7 @@
 .recent-update-list {
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
+  width: 85%;
 }
 
 .recent-update {
@@ -565,7 +566,7 @@
 }
 
 .calendar-event {
-  min-width: 20rem;
+  min-width: 30%;
   margin-top: 1rem;
   color: #666;
   display: flex;
@@ -742,33 +743,79 @@
     padding: 1rem;
     padding-top: 0;
   }
-
+  div.recent-updates {
+    width: 35%;
+  }
+  div.calendar-events {
+    width: 40%;
+  }
   div.sub-menu {
-    /* margin-top: 10vh; */
+    margin-top: 10vh;
     height: auto;
   }
-  div.sub-menu-item {
-    font-size: 10px;
+  div.header-nav-button {
+    font-size: 0.65rem;
   }
-
-  div.navigation-menu {
-    font-size: 4px;
+  div.sub-menu-item {
+    font-size: 8px;
+    padding: 0.75ch;
+  }
+  div.nav-menu-content-list-item {
+    font-size: 0.3rem;
+    margin: 0.5ch;
   }
   div.nav-menu-content-group {
-    font-size: 4px;
+    font-size: 0.5rem;
+    margin-top: 0.55rem;
+    width: 22%;
   }
   div.header-search-bar-wrapper {
-    margin-top: 3em;
-    position: absolute;
+    margin-top: 3rem;
   }
   div.button-text {
     font-size: 1rem;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 430px) and (orientation: portrait) {
   div.hero-image-text {
     font-size: 1.25rem;
     width: 90%;
+  }
+
+  div.recent-update-list {
+    width: 80%;
+  }
+  div.header-search-bar-wrapper {
+    margin-top: 3rem;
+    /* width: 60%; */
+  }
+  div.header-nav-button-wrapper {
+    margin: 1ch;
+    justify-content: space-around;
+  }
+  div.header-nav-icon-wrapper {
+    margin-right: 0;
+    width: 8%;
+  }
+  div.header-wrapper {
+    padding: 0;
+  }
+  div.icon-wrapper {
+    margin-left: 1ch;
+  }
+  div.group-list-wrapper {
+    width: 70%;
+  }
+  div.nav-menu-content-list {
+    justify-content: flex-start;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  div.sub-menu-item {
+    padding: 2ch;
+    font-size: 0.55rem;
   }
   div.footer-contact-item {
     font-size: 8px;
@@ -777,14 +824,16 @@
     font-size: 9px;
   }
   div.header-text-wrapper {
-    font-size: 7px;
+    display: none;
   }
   div.header-nav-button {
-    font-size: 8px;
-    margin: 0.25rem;
+    font-size: 10px;
+    margin: 0.35rem;
+    letter-spacing: 0;
+    font-weight: bold;
   }
-  div.sub-menu-item {
-    font-size: 8px;
+  div.nav-menu-content-list-item {
+    margin: 1ch;
   }
   div.nav-menu-content-group {
     font-size: 8px;
@@ -802,6 +851,21 @@
     margin-top: 2rem;
     font-size: 0.5rem;
   }
+  div.footer {
+    padding: 1rem;
+  }
+  div.link-item {
+    width: 85%;
+  }
+  div.link-item-text {
+    width: 50%;
+  }
+  div.calendar-events {
+    width: 75%;
+  }
+  div.calendar-event-list {
+    width: 90%;
+  }
 }
 
 @media screen and (min-width: 431px) {
@@ -816,11 +880,9 @@
     font-size: 0.5rem;
     margin: 0.5rem;
   }
-  div.nav-menu-content-group {
-    width: 15%;
-    font-size: 0.5rem;
+  div.sub-menu {
+    width: 20%;
   }
-
   div.info-link-container {
     flex-wrap: wrap;
   }
@@ -832,7 +894,6 @@
     font-size: 0.7rem;
   }
 }
-
 @media screen and (min-width: 601px) {
   div.hero-image-text {
     font-size: 1.5rem;
@@ -841,11 +902,6 @@
   div.header-text-wrapper {
     font-size: 0.7rem;
   }
-  div.header-nav-button {
-    font-size: 0.85rem;
-    margin: 0.75rem;
-  }
-
   div.info-link-item {
     width: 6rem;
     height: 8rem;
@@ -883,11 +939,14 @@
     margin: 1.25rem;
   }
   div.nav-menu-content-group {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     width: 30%;
+    height: auto;
     margin-top: 1rem;
   }
-
+  div.nav-menu-content-list-item {
+    padding: 0.15ch;
+  }
   div.info-link-item {
     width: 10rem;
     height: 12rem;
@@ -901,11 +960,17 @@
 }
 
 @media screen and (min-width: 1450px) {
+  div.recent-updates {
+    margin-right: 5rem;
+  }
   div.info-link-item {
     width: 13rem;
     height: 14rem;
     padding: 2;
     margin: 2.5rem 2rem 2rem 2rem;
     font-size: 1.2rem;
+  }
+  div.header-search-bar-wrapper {
+    width: 32rem;
   }
 }

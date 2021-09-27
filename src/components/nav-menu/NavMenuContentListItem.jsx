@@ -3,7 +3,7 @@ import React from 'react';
 
 const NavMenuContentListItem = ({ item }) => (
   <div className="nav-menu-content-list-item">
-    <p className="content-list-text">{item}</p>
+    <span className="content-list-text">{item}</span>
   </div>
 );
 
